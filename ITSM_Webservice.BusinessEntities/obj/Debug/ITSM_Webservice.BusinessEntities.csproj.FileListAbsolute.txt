@@ -1,0 +1,10 @@
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\bin\Debug\ITSM_Webservice.BusinessEntities.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\bin\Debug\ITSM_Webservice.BusinessEntities.pdb
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\bin\Debug\log4net.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\bin\Debug\log4net.xml
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\obj\Debug\ResolveAssemblyReference.cache
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\obj\Debug\ITSM_Webservice.BusinessEntities.Exceptions.ExceptionLogResource.resources
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\obj\Debug\ResGen.read.1.tlog
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\obj\Debug\ResGen.write.1.tlog
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\obj\Debug\ITSM_Webservice.BusinessEntities.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.BusinessEntities\obj\Debug\ITSM_Webservice.BusinessEntities.pdb

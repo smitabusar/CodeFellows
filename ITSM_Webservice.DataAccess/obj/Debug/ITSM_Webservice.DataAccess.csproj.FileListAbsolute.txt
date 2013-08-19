@@ -1,0 +1,12 @@
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\ITSM_Webservice.DataAccess.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\ITSM_Webservice.DataAccess.pdb
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\BMC.arnettoc.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\BMC.ARSystem.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\ITSM_Webservice.BusinessEntities.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\log4net.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\ITSM_Webservice.BusinessEntities.pdb
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\BMC.ARSystem.xml
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\bin\Debug\log4net.xml
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\obj\Debug\ResolveAssemblyReference.cache
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\obj\Debug\ITSM_Webservice.DataAccess.dll
+C:\Work\COREHTML5\CSTR_ITSM_WS\ITSM_WS\ITSM_Webservice.DataAccess\obj\Debug\ITSM_Webservice.DataAccess.pdb
