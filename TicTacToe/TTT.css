@@ -1,0 +1,46 @@
+#header {
+    padding: 0px;
+    text-align: center;    
+}
+
+.button_org {
+    background-color: #F8FB43;
+    width: 100px;
+    height: 100px;
+}
+
+.button_x {
+    background-image: url("x.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.button_o {
+    background-image: url("o.jpg");
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.label {
+    border: 0;
+    width: 150px;
+    height: 30px;
+    background-color: #9BFA8D;
+    Text-Align: Center;
+}
+
+.divLeft {
+    float: left;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+
+.divRight {
+    float: right;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-right: 70px;
+    margin-right: 70px;
+}
