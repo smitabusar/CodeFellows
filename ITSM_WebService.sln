@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{0B6B6775-6E9D-4961-8E1B-BB024214DCE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{1C72B64B-BBA0-4BF4-8870-A58055BF9B77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{0F0A518D-8CB4-4823-A872-F6632CA7348C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{9C861E3B-28AC-4DEC-B03B-F0AB5FEAE0F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSM_WebService.ServiceImplementation", "ITSM_WS\ITSM_WebService.ServiceImplementation.csproj", "{88193774-0C30-469D-8E0A-493AFE84CCC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSM_Webservice.BusinessEntities", "ITSM_Webservice.BusinessEntities\ITSM_Webservice.BusinessEntities.csproj", "{1EC7389F-A7C7-440F-AF40-2441B2724E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSM_WebService.BusinessLogic", "ITSM_WebService.BusinessLogic\ITSM_WebService.BusinessLogic.csproj", "{F907F97C-2C2F-41C9-955D-A758A1A84869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSM_Webservice.DataAccess", "ITSM_Webservice.DataAccess\ITSM_Webservice.DataAccess.csproj", "{67922981-1664-4204-B121-756204ECFD45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88193774-0C30-469D-8E0A-493AFE84CCC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88193774-0C30-469D-8E0A-493AFE84CCC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88193774-0C30-469D-8E0A-493AFE84CCC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88193774-0C30-469D-8E0A-493AFE84CCC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EC7389F-A7C7-440F-AF40-2441B2724E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EC7389F-A7C7-440F-AF40-2441B2724E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EC7389F-A7C7-440F-AF40-2441B2724E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EC7389F-A7C7-440F-AF40-2441B2724E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F907F97C-2C2F-41C9-955D-A758A1A84869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F907F97C-2C2F-41C9-955D-A758A1A84869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F907F97C-2C2F-41C9-955D-A758A1A84869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F907F97C-2C2F-41C9-955D-A758A1A84869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67922981-1664-4204-B121-756204ECFD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67922981-1664-4204-B121-756204ECFD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67922981-1664-4204-B121-756204ECFD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67922981-1664-4204-B121-756204ECFD45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1C72B64B-BBA0-4BF4-8870-A58055BF9B77} = {0B6B6775-6E9D-4961-8E1B-BB024214DCE1}
+		{0F0A518D-8CB4-4823-A872-F6632CA7348C} = {0B6B6775-6E9D-4961-8E1B-BB024214DCE1}
+		{9C861E3B-28AC-4DEC-B03B-F0AB5FEAE0F4} = {0B6B6775-6E9D-4961-8E1B-BB024214DCE1}
+		{1EC7389F-A7C7-440F-AF40-2441B2724E28} = {1C72B64B-BBA0-4BF4-8870-A58055BF9B77}
+		{F907F97C-2C2F-41C9-955D-A758A1A84869} = {1C72B64B-BBA0-4BF4-8870-A58055BF9B77}
+		{67922981-1664-4204-B121-756204ECFD45} = {0F0A518D-8CB4-4823-A872-F6632CA7348C}
+		{88193774-0C30-469D-8E0A-493AFE84CCC9} = {9C861E3B-28AC-4DEC-B03B-F0AB5FEAE0F4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Smita's TIC TAC TOE </title>
+    <link type="text/css" rel="stylesheet" href="ttt.css" />
+    <script type="text/javascript" src="ttt.js"></script>
+</head>
+
+<body>
+    <form button="frmTickTackToe">
+        <div id="header">
+            <h1> Lets Play Tic Tac Toe - Smita Style!! <img src="a.jpg" width="50px" height="50px" /></h1>
+            <h2> Move : 
+                <Input type="text" name="txtCurPlayer" id="txtCurPlayer" value="Player 1" readonly class="label">
+            </h2>
+        </div>
+        <div id="gameBlock" class="divLeft">
+            <table button="tblTicTacToe">
+                <script language="javascript">
+	            <!--//
+                for (var i = 0; i < 9; i++) {
+                    if (i % 3 == 0) {
+                        document.write("<tr>");
+                    }
+                    document.write('<td> <input type="button" name="' + i + '" value =" " onclick="userMove(this,this.form)" class="button_org"></td>');
+                    if (i % 3 == 2) {
+                        document.write("</tr>");
+                    }
+                }
+                //-->
+                </script>
+            </table>
+        </div>
+        <div id="summaryBlock" class="divRight">
+            <table button="tblSummary">
+                <tr>
+                    <td>
+                        <h3>Player 1</h3>
+                    </td>
+                    <td>
+                        <h3>Player 2</h3>
+                    </td>
+                    <td>
+                        <h3>Ties</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" button="txtGameP1" id="txtGameP1" value="0" readonly class="label">
+                    </td>
+                    <td>
+                        <input type="text" button="txtGameP2" id="txtGameP2" value="0" readonly class="label">
+                    </td>
+                    <td>
+                        <input type="text" button="txtGameDraw" id="txtGameDraw" value="0" readonly class="label">
+                    </td>
+                </tr>
+            </table>
+            <h5><span id="spanDebug"></span></h5>
+        </div>
+    </form>
+</body>
+</html>
