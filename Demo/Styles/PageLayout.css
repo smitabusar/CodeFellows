@@ -1,0 +1,172 @@
+﻿@charset'utf-8';
+/*Reset Page*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+article, aside, footer, header, hgroup, nav, section {
+    display: block;
+}
+/*Page Style*/
+body {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    background-image: url('../images/PageBg.jpg');
+    border-radius: 2em; /* rounded corners*/
+    box-shadow: 0 0 5px 10px rgba(192,192,192,.5); /*For Glow effect set right & down to 0 specify only blur distance & color*/
+}
+/*Header Style*/
+ header {
+    background-color:#FFFFCC; /*Fallback color*/
+    background-image: url('../images/AsideBg1.jpg');
+    padding:1px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+    header h1 {
+        color: rgba(83,52,25,1);
+        font-family:Georgia,'Times New Roman';
+        text-transform:uppercase;
+        text-shadow:2px 2px 5px rgba(164,82,9,.5);
+        text-align:center;
+    }
+    header h2 {
+        color: rgba(83,52,25,.8);
+        font-family:Georgia,'Times New Roman';
+        text-transform:capitalize;
+        text-align:center;
+        font-style:italic;
+    }
+/*Navigation Bar Style*/
+nav {
+    background-color: #FFFFCC;
+    padding: 10px;
+}
+nav ul li {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+nav a {
+    color: rgb(153,204,153);
+    text-decoration: none;
+    font-family:'Segoe UI',Verdana;
+    font-size:medium;
+    font-weight:bold;
+}
+nav a:hover {
+    text-shadow: -2px -2px 5px rgb(153,153,204);/*gives links effect of buttons*/
+}
+/*Content style*/
+#content {
+    width: inherit;
+    float:left;/*necessary for footer to flow down*/
+}
+/*Sidebar Style*/
+#content aside {
+    width:200px;
+    float: right;
+    background-color: #FFFFCC;
+    height: auto;
+    min-height: 500px;
+}
+#asideHeader{
+    color: rgba(83,52,25,.8);
+    font-family:'Segoe UI',Verdana;
+    font-size:large;
+    font-weight:bold;
+    text-transform:capitalize;
+    margin:20px;
+  }
+#content aside ul {
+    margin-top: 75px;
+    list-style:none;
+}
+#content aside ul li {
+        font-family:'Segoe UI',Verdana;
+        text-transform:lowercase;
+        font-size:medium;
+        text-align:center;
+        padding:10px;
+        margin:10px;
+        border-radius:1em;
+    }
+/*alternate rows colored for sidebar*/
+#content aside ul li:nth-child(even) {
+    background-color:rgba(255,204,51,.5);
+}
+#content aside ul li:nth-child(odd) {
+    background-color:rgba(164,82,9,.5);
+}
+#content aside ul li:hover {
+    box-shadow:0 0 5px 5px rgba(83,52,25,.3);/*links to buttons*/
+}
+/*article Style*/
+#content article {
+    background:linear-gradient(bottom,#F9F6F4 23%,#E9E0DB 62%); /*not working in chrome or IE10*/
+    background:#F9F6F4;
+    height: auto;
+    min-height: 500px;
+    width:1000px;
+}
+.sectionRight {
+    position:relative;
+    float:right;
+    margin-right:50px;
+}
+#content article section h3 {
+    color:#9999CC;
+    margin:20px;
+    font-family:'Segoe UI',Verdana;
+    font-size:medium;
+    font-weight:bold;
+    padding-left:10px;
+}
+#content article section ul {
+    list-style:none;
+}
+    #content article section ul li {
+        margin-left:50px;
+        padding: 10px;
+        color: #8F6048;
+        font-family: 'Lucida Console','Courier New';
+        font-size: medium;
+    }
+    /*Highlights the row when hovered over*/
+    #content article section ul li:hover {
+        color: #F9F6F4;
+        background-color:#8F6048;
+    }
+/*Footer Style*/
+footer {
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    background-color:#FFFFCC; /*Fallback color*/
+    background-image: url('../images/AsideBg1.jpg');
+    padding:10px;
+}
+    footer p {
+        color: rgba(83,52,25,.8);
+        font-family:Georgia,'Times New Roman';
+        text-transform:capitalize;
+        text-align:center;
+}
+ /*Navigation bar click Logic*/
+#content article, section, #articleHTML5 {
+    position: absolute;/*sets all the article to absolute position*/
+}
+#articleHTML5 {
+    z-index: 1;/*sets the intial article to visible*/
+}
+#content:not(:target #articleHTML5) { 
+    z-index: -1; /*sets all the articles that are not target & initial article to hidden */
+}
+:target {
+    z-index: 2; /*set the article that is chosen by link to visible*/
+}
+.HighlightElement {
+    border: 5px solid red;
+}

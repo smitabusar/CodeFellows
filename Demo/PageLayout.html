@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Page Layout</title>
+    <link rel="stylesheet" href="Styles/PageLayout.css" media="screen">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+    <script src="Scripts/PageLayout.js"></script> 
+    <!-- Fallback if CDN fails -->
+<!--    <script>
+        windows.jquery || document.write('<script src="jquery.js"><\/script>');
+    </script>-->
+</head>
+<body>
+
+    <header>
+        <hgroup>
+            <h1>Page Layout Demo</h1>
+            <h2>Highlights various sections of Page</h2>
+        </hgroup>
+    </header>
+    <!-- For Navigation menu to be working it is important for the menu items to be link tags -->
+    <nav>
+        <ul>
+            <li><a href="#articleHTML5">HTML5 Features</a></li>
+            <li><a href="#articleCSS3">CSS3 Features</a></li>
+            <li><a href="#articleOthers">Others</a></li>
+        </ul>
+    </nav>
+    <!-- Div Content has aside which is sidebar & articles that represent the main articles on this page -->
+    <div id="content">
+        <aside>
+            <section id="asideHeader">
+                Highlight the area
+            </section>
+            <ul id="listRegion">
+                <li>header</li>
+                <li>footer</li>
+                <li>aside</li>
+                <li>nav</li>
+                <li>article</li>
+                <li>section</li>
+            </ul>
+        </aside>
+        <article id="articleHTML5">
+            <section id="SectionHTML5">
+                <h3>HTML5 Features Covered in this demo are</h3>
+                <ul>
+                    <li>header</li>
+                    <li>footer</li>
+                    <li>aside</li>
+                    <li>nav</li>
+                    <li>article</li>
+                    <li>section</li>
+                </ul>
+            </section>
+        </article>
+        <article id="articleCSS3">
+            <section id="SectionCSS3">
+                <h3>CSS3 Features Covered in this Demo</h3>
+                <ul>
+                    <li>Page Layout</li>
+                    <li>Convert text to link</li>
+                    <li>Show article content based on Menu item</li>
+                    <li>Alternate color in row</li>
+                    <li>Make list item to button</li>
+                    <li>Background & color properties</li>
+                    <li>Highlighting the selected row</li>
+                </ul>
+            </section>
+        </article>
+        <article id="articleOthers">
+            <section id="SectionJS">
+                <h3>Javascript Features Covered in this Demo</h3>
+                <ul>
+                    <li>Get a given element by its tag name</li>
+                </ul>
+            </section>
+            <section id="SectionJQuery" class="sectionRight">
+                <h3>Jquery Features Covered in this Demo</h3>
+                <ul>
+                    <li>document.ready()</li>
+                    <li>Attaching event click to list items</li>
+                    <li>Bubbling up event to list</li>
+                    <li>Hover event on the list items</li>
+                </ul>
+            </section>
+        </article>
+    </div>
+    <footer>
+        <p>&copy; Happy Learning :) Thank you for visiting!!</p>
+    </footer>
+
+
+</body>
+</html>
